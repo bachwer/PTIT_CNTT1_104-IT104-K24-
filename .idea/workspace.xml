@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7482db54-cbf1-495f-b9a7-1942aacf40d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PTIT_CNTT1_IT202.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session_02/PTIT_CNTT1_IT201_Session_02_bai01.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session_02/PTIT_CNTT1_IT201_Session_02_bai02.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session_02/PTIT_CNTT1_IT201_Session_02_bai03.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session_02/PTIT_CNTT1_IT201_Session_02_bai04.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session_02/PTIT_CNTT1_IT201_Session_02_bai05.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session_02/PTIT_CNTT1_IT201_Session_02_bai06.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session_02/PTIT_CNTT1_IT201_Session_02_bai07.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session_02/PTIT_CNTT1_IT201_Session_02_bai07_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session_02/PTIT_CNTT1_IT201_Session_02_bai08.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session_02/PTIT_CNTT1_IT201_Session_02_bai09.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session_02/PTIT_CNTT1_IT201_Session_02_bai10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +57,10 @@
     "Node.js.PTIT_CNTT1_IT202_Session_01_TH.js.executor": "Run",
     "Node.js.index.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "javascript.nodejs.core.library.configured.version": "22.17.0",
     "javascript.nodejs.core.library.typings.version": "22.17.0",
     "last_opened_file_path": "/Users/macbook/Documents/PTIT_CNTT1_IT202",
@@ -104,7 +91,7 @@
       <workItem from="1754007880082" duration="6204000" />
       <workItem from="1754266676894" duration="10449000" />
       <workItem from="1754310688021" duration="1749000" />
-      <workItem from="1754312448715" duration="5940000" />
+      <workItem from="1754312448715" duration="6585000" />
     </task>
     <servers />
   </component>
