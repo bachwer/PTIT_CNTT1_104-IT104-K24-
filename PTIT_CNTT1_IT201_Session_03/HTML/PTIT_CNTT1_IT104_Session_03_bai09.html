@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Máy tính</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .calculator {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .input-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #666;
+    }
+
+    input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      box-sizing: border-box;
+    }
+
+    .buttons {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    button {
+      padding: 15px 10px;
+      border: 1px solid #007bff;
+      background-color: #007bff;
+      color: white;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .special-buttons {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .result {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #f8f9fa;
+      border: 1px solid #e9ecef;
+      border-radius: 4px;
+      text-align: center;
+    }
+
+    .result-label {
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #495057;
+    }
+
+    .result-value {
+      font-size: 20px;
+      color: #007bff;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+<div class="calculator">
+  <h1>Máy tính</h1>
+
+  <div class="input-group">
+    <label for="number1">Số thứ nhất:</label>
+    <input type="number" id="number1" placeholder="Nhập số thứ nhất">
+  </div>
+
+  <div class="input-group">
+    <label for="number2">Số thứ hai:</label>
+    <input type="number" id="number2" placeholder="Nhập số thứ hai">
+  </div>
+
+  <div class="buttons">
+    <button onclick="calculateMath('add')">+ Cộng</button>
+    <button onclick="calculateMath('subtract')">- Trừ</button>
+    <button onclick="calculateMath('multiply')">× Nhân</button>
+    <button onclick="calculateMath('divide')">÷ Chia</button>
+    <button onclick="calculateMath('power')">^ Lũy thừa</button>
+    <button onclick="calculateMath('root')">√ Căn</button>
+  </div>
+
+
+  <div class="special-buttons">
+    <button onclick="calculateMath('factorial1')">! Giai thừa số 1</button>
+    <button onclick="calculateMath('factorial2')">! Giai thừa số 2</button>
+  </div>
+
+  <div class="result">
+    <div class="result-label">Kết quả:</div>
+    <div class="result-value" id="result">---</div>
+  </div>
+</div>
+<script type="module"  src="../dist/PTIT_CNTT1_IT104_Session_03_bai09.js"></script>
+</body>
+</html>
