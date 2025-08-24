@@ -1,0 +1,62 @@
+.Ex9Container{
+    display: flex;
+    background-color: #f1eeee;
+    padding: 0 20px 0 20px;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.Ex9Container1{
+    display: flex;
+    gap: 10px;
+}
+.Ex9Container1 button{
+    padding: 2px 12px;
+}
+.container{
+    width: 80%;
+    display: block;
+}
+.BtnDelete{
+    background-color: #f3e6e6;
+    color: #f84b4b;
+    border: 1px solid red;
+    font-weight: 600;
+    font-size: 14px;
+}
+.BtnEdit{
+    background-color: rgba(254, 255, 198, 0.62);
+    color: #9e6123;
+    border: 1px solid yellow;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.inputButton{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.inputButton input{
+    border: 1px solid #dddada;
+    border-radius: 5px;
+    width: 85%;
+    height: 50px;
+    padding: 10px 10px 10px 20px;
+
+}
+.inputButton button{
+    width: 13%;
+    background-color: #4242ec;
+    color: white;
+    font-weight: bold;
+}
+.inputButton button:hover{
+    width: 13%;
+    background-color: #6161ed;
+    color: #ede5e5;
+    font-weight: bold;
+}

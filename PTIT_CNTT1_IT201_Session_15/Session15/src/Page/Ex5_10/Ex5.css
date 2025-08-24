@@ -1,0 +1,169 @@
+.Ex5table {
+    width: 100%;
+}
+.Ex5table th{
+    
+    font-weight: bold;
+    color: rgb(200, 200, 200);
+    padding: 10px 20px 10px 20px;
+}
+.Ex5table tr{
+    border-bottom: 1px solid rgb(236, 225, 225);
+    height: 10px;
+  
+ 
+}
+.Ex5table td{
+ padding: 10px 20px 10px 20px;
+ color: rgb(125, 120, 120)
+  
+}
+
+.Active{
+    border: 1px solid green;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(224, 245, 224);
+    color: rgb(56, 143, 69);
+    font-weight: 600;
+  
+}
+.inactive{
+    border: 1px solid red;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(232, 77, 77);
+    background-color: rgb(254, 233, 233);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.container button {
+    margin-right: 0 !important;
+}
+
+.navTable {
+    display: flex;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+
+.navTable input {
+    height: 30px;
+    border: 1px solid #e1dfdf;
+    border-radius: 5%;
+}
+
+/* Nền mờ phủ toàn màn hình */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+/* Hộp modal */
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 420px;
+    max-width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* Tiêu đề modal */
+.modal-content h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Body */
+.modal-body {
+    margin-top: 10px;
+}
+
+/* Input group */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.form-group label {
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+
+.form-group input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Footer */
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.modal-footer button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+/* Nút mặc định */
+.modal-footer button:first-child {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.modal-footer button:first-child:hover {
+    background-color: #0056b3;
+}
+
+/* Nút đóng/hủy */
+.modal-footer button:last-child {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.modal-footer button:last-child:hover {
+    background-color: #565e64;
+}
+
+/* Hiệu ứng hiện */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
