@@ -30,8 +30,7 @@ function App() {
           <Route path="/ex7" element={<Ex7/>} />
           <Route path="/ex8" element={<Ex8/>} />
           <Route path="/ex9" element={<Ex9/>} />
-          {/*<Route path="/ex10" element={<GetValue/>} />*/}
-
+          <Route path="/ex10" element={<Ex5/>} />
           <Route path="*" element={<h2>Trang không tồn tại</h2>} />
         </Routes>
       </main>
