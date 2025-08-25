@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "strict": true,                // Bật toàn bộ kiểm tra chặt chẽ
+    "strictNullChecks": true,      // Null & undefined phải được check
+    "noImplicitAny": true,         // Không cho phép biến ngầm hiểu là any
+    "noImplicitThis": true,
+    "alwaysStrict": true
+  }
+}

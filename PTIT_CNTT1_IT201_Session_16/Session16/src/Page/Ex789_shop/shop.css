@@ -1,0 +1,208 @@
+
+
+.NavShop{
+    background-color: #bd850e;
+    padding: 5px 35px 5px 35px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    border-radius: 0 0 8px 8px;
+}
+
+.NavShop_MENU{
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+.NavShop_MENU p {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.NavShop_MENU p:hover {
+    color: #ffe08a;
+}
+.ShoppingCart {
+    position: relative; /* để chứa badge */
+    display: inline-block;
+}
+.ShoppingCart svg {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.ShoppingCart svg:hover {
+    transform: scale(1.1);
+}
+
+.CartBadge {
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background: #fb7c66;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 3px 6px;
+    line-height: 1;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product{
+    background-color: #ffffff;
+    width: 350px;
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+    text-align: center;
+    gap: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    z-index: 1
+}
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+}
+
+.product h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+}
+.product p {
+    color: #bd850e;
+    font-weight: bold;
+}
+.product button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #bd850e;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.product button:hover {
+    background-color: #a4730d;
+}
+.product img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.containerProduct{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    z-index: 1
+}.modal123 {
+     background: #71531b; /* nền tối */
+     color: #fff; /* chữ trắng */
+     width: 420px;
+     position: fixed;
+     top: 80px;
+     right: 40px;
+     z-index: 2147483647;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+ }
+
+.modal123 h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding-bottom: 8px;
+}
+
+.ProductInCart {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ProductInCart > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.ProductInCart img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #333;
+}
+
+.ProductInCart p {
+    flex: 1;
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: #fff;
+}
+
+.ProductInCart button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.ProductInCart button:hover {
+    background: #bd850e;
+    border-color: #bd850e;
+    color: #111;
+}
+
+.ProductInCart span {
+    margin: 0 8px;
+    font-weight: bold;
+    min-width: 20px;
+    text-align: center;
+}
+
+.modal123 p:last-child {
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: right;
+    color: #ffe08a; /* màu vàng gold */
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.1);
+    z-index: 9998;
+}
+.bin{
+    cursor: pointer;
+}
