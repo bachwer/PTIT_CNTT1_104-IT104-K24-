@@ -12,7 +12,7 @@ import Ex5 from "./Pages/Ex5_from.tsx"
 import Ex6 from "./Pages/Ex6_CounText.tsx"
 import Ex7 from "./Pages/Ex7_select.tsx"
 import Ex8 from "./Pages/Ex8_Checkbox.tsx"
-import Ex9 from "./Pages/Ex9/Ex9_parent.tsx"
+import Ex9 from "./Pages/Ex9,10,TH/Ex9_parent.tsx"
 
 
 
