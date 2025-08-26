@@ -1,0 +1,71 @@
+.containerList{
+    margin: 40px auto auto auto;
+    width: 80%;
+    box-shadow: 0 0 0 0.1px;
+    padding: 20px 40px;
+}
+.containerList h2{
+    text-align: center;
+}
+
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navContainer input{
+    width: 87%;
+    padding-left: 20px;
+
+
+}
+.checkbox1{
+    display: flex;
+    gap: 20px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+.navContainer button{
+    width: 10%;
+
+}
+.functionIcon{
+    display: flex;
+    gap: 20px;
+}
+
+.FooterNav{
+    display: flex;
+    justify-content: center;
+    background-color: #f8f2f2;
+    height: 35px;
+    align-items: center;
+
+}
+
+.FooterNav strong{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
