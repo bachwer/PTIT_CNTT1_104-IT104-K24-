@@ -1,0 +1,126 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    width: 999px;
+    padding: 40px;
+    height: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+.container h1{
+    color: #4a90e2;
+}
+.Process{
+
+}
+
+.boxContainer{
+    width: 90%;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 25px;
+    background-color: #f8f9fa;
+    text-align: left;
+
+}
+.circle{
+    display:inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 100%;
+    color: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+
+
+.blue{
+    background-color: #4a90e2;
+}
+.green{
+    background-color: #44a544;
+}
+
+.childrenBox{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    background-color: white;
+    border: 1px solid #cfcfcf;
+    border-radius: 10px;
+    padding: 0 30px;
+    line-height: 0.2;
+    margin-bottom: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.childrenBox:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+
+
+.Btn-Unread{
+    padding: 5px 10px;
+    background-color: #48a648;
+    color: white;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid #4fb64f;
+}
+.Btn-Unread:hover{
+    background-color: #4d8c4d;
+    border: 1px solid #4fb64f;
+}
+
+.typeBox{
+    font-size: 13px;
+    width: auto;
+    padding: 2px 7px;
+    background-color: #4a90e2;
+    border-radius: 20px;
+    color: #f4efef;
+}
+
+
+.Btn-read{
+    padding: 5px 10px;
+    background-color: #b88449;
+    color: white;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid #a17624;
+}
+.Btn-read:hover{
+    background-color: #976936;
+    border: 1px solid #a17624;
+}
+
+.ProcessBox{
+    background: #f3eeee;
+    width: 90%;
+    border-radius: 5px;
+    height: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.Process{
+    display: flex;
+    padding: 2px;
+    height: 5px;
+    background: #589f58;
+    border-radius: 5px;
+
+}
+.roll{
+
+    max-height: 400px;
+    overflow-y: auto;
+
+}

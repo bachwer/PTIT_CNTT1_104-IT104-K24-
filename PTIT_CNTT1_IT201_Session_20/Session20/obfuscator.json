@@ -1,0 +1,7 @@
+{
+  "target": "es2020",
+  "compact": true,
+  "controlFlowFlattening": true,
+  "preserveImports": true,
+  "preserveExports": true
+}

@@ -1,0 +1,56 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* căn giữa toàn trang */
+    font-family: Arial, sans-serif;
+}
+
+form {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+form input:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #357ab8;
+}
+
+form .result {
+    background-color: #c5f4c5;
+
+    margin-top: 15px;
+    padding: 10px;
+    border-top: 1px solid #eee;
+    color: #000000;
+}

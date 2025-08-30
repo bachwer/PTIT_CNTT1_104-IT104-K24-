@@ -1,0 +1,79 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    width: 999px;
+    padding: 40px;
+    height: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+
+.container h1{
+    color: #4a90e2;
+}
+
+.searchInput{
+    width: 80%;
+    height: 38px;
+    border: 2px solid #d5d0d0;
+    border-radius: 8px;
+    background-color: #eae5e5;
+
+}
+.inforContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #f8f5f5;
+    height: 38px;
+    color: #b5b1b1;
+}
+
+
+.boxProduct{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   ;
+    flex-wrap: wrap;
+}
+
+.Product {
+    width: 45%;
+
+    border-radius: 10px;           /* bo góc mềm hơn */
+    margin-bottom: 15px;
+    background-color: #ffffff;     /* nền trắng tinh gọn */
+    border: 1px solid #e0e0e0;     /* viền nhẹ nhàng */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);  /* đổ bóng tinh tế */
+    text-align: left;
+    padding: 20px;
+    line-height: 1.6;              /* chữ thoáng hơn */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;               /* tạo cảm giác có thể click */
+}
+
+.Product:hover {
+    transform: translateY(-5px);   /* nổi lên khi hover */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.Product h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.Product p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+
