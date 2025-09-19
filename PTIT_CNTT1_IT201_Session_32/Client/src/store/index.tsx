@@ -5,14 +5,26 @@ import user from "./User.tsx"
 import text from "./Text.tsx"
 import darkMode from "./DarkMode.tsx";
 import auth from './authSlice.tsx'
+
+import ChangeLeave from "./Ex910/filterLevr.tsx"
+
+import taskReducer from "./Ex910/AllTodo.tsx";
+import DataTarget from "./Ex910/DataTarget.tsx";
+
+
+import Ex9Modal from "./Ex910/Model.tsx"
 export const store = configureStore({
     reducer: {
-        users: userReducer,     // quản lý danh sách user
-        counter: counterReducer, // quản lý count
+        users: userReducer,
+        counter: counterReducer,
         user: user,
         text: text,
         auth: auth,
         darkMode: darkMode,
+        Ex9Modal: Ex9Modal,
+        tasks: taskReducer,
+        ChangeLeave: ChangeLeave,
+        DataTarget: DataTarget,
 
     },
 });

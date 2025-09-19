@@ -11,6 +11,8 @@ import {Route, Routes} from "react-router";
 import Register from "./Page/Register.tsx";
 import Login from "./Page/Login.tsx";
 
+import Ex9 from "./Page/Ex9_10_Todo/todo.tsx"
+
 import { useSelector } from "react-redux";
 import type {RootState} from "./store";
 
@@ -39,8 +41,8 @@ function App() {
                 <Route path="/login" element={<Login />} />
 
                 <Route path="/ex8" element={<Ex4/>}/>
-                <Route path="/ex9" element={<Ex4/>}/>
-                <Route path="/ex10" element={<Ex4/>}/>
+                <Route path="/ex9" element={<Ex9/>}/>
+                <Route path="/ex10" element={<Ex9/>}/>
             </Routes>
         </>
     )

@@ -22,6 +22,8 @@ const userSlice = createSlice({
         random: (state) => {
             state.count = Math.random()
         }
+
+
     }
 })
 
