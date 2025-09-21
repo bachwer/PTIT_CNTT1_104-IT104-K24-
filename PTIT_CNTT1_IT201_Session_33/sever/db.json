@@ -1,0 +1,33 @@
+{
+  "cart": [],
+  "product": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "price": 30,
+      "quantity": 1,
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "Hamburger",
+      "price": 15,
+      "quantity": 1,
+      "description": ""
+    },
+    {
+      "id": 3,
+      "name": "Bread",
+      "price": 20,
+      "quantity": 1,
+      "description": ""
+    },
+    {
+      "id": 4,
+      "name": "Cake",
+      "price": 10,
+      "quantity": 1,
+      "description": ""
+    }
+  ]
+}
