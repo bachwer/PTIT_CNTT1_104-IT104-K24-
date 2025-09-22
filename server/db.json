@@ -1,0 +1,34 @@
+{
+  "students": [
+    {
+      "id": "2",
+      "codeSV": "SV002",
+      "fullName": "Nguyen Van C",
+      "age": 23,
+      "gender": false,
+      "dateOfBirth": "2000/01/23",
+      "placeOfBirth": "Ha Noi",
+      "address": "Nguyen Trai"
+    },
+    {
+      "codeSV": "SV009",
+      "fullName": "Quách Văn Sơn Bách",
+      "age": "23",
+      "gender": "Nam",
+      "dateOfBirth": "2025-09-06",
+      "placeOfBirth": "123",
+      "address": "Ha noi",
+      "id": "_dH-DQR"
+    },
+    {
+      "codeSV": "SV004",
+      "fullName": "Bach",
+      "age": "23",
+      "gender": "Nữ",
+      "dateOfBirth": "",
+      "placeOfBirth": "123",
+      "address": "123",
+      "id": "eKq_L4I"
+    }
+  ]
+}
